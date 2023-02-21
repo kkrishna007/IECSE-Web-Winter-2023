@@ -1,0 +1,107 @@
+body{
+	background-color: #FAEBD7;
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+}
+.MainImg{
+	float: left;
+	padding: 10px;
+	padding-right: 30px;
+}
+h1{
+	line-height: 0em;
+}
+h2{
+	line-height: 0.02em;
+}
+.elements{
+	float: left;
+	/*display: flex;*/
+	padding-right: 5px;
+	margin: 0;
+}
+p{
+	line-height: 1em;
+	margin: 0;
+	padding: 0;
+}
+h5{
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.Objective{
+	display: flex;
+	justify-content: center;
+	flex-basis: 3px;
+}
+.Objective h1{
+	margin: 10px;
+}
+.Edu h3,h4{
+	line-height: 0em;
+	padding: 15px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+.Edu p{
+	line-height: 0em;
+	padding: 0;
+	margin: 0;
+	padding: 10px;
+	padding-top:5px;
+}
+.Edu{
+	display: flex;
+	flex-direction: column;
+}
+.Education p{
+	/*display: flex;*/
+	float: left;
+	margin: 10px;
+}
+.Col1{
+	display: flex;
+	flex-direction: column;
+}
+.Col2{
+	display: flex;
+	flex-direction: column;
+}
+.Col3{
+	display: flex;
+	flex-direction: column;
+}
+.finale{
+	display: flex;
+	justify-content: center;
+	flex-basis: 150px;
+	flex-grow: 50px;
+}
+.my-form{
+	padding:20px;
+}
+.my-form.form-group{
+	padding: 15px;
+}
+.my-form label/*change the boxes beside the name to down*/{
+	display:block;
+}
+.my-form input[type="text"], .my-form textarea/*styling the bars*/{
+	padding: 0px;
+	width: 100%;
+}
+/*eppudhu paina input taruvata unnayi, vatiki matrame ee styling ani ardham*/
+.my-form input[type="submit"]/* or .button, since button is a class in our html*/{
+	background-color: black;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+.my-form input[type="submit"] hover{
+	background-color: red;
+	color: white;
+}
