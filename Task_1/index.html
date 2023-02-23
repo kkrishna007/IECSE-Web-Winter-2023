@@ -6,15 +6,24 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<div class="MainImg">
-	<img src="girl.jpg" height="250px">
+	<map name="MainGirl">
+		<area shape="default" href="https://iecsemanipal.com">
+	</map>
+	<map name="Git">
+		<area shape="default" href="https://github.com/kkrishna007/IECSE-Web-Winter-2023">
+	</map>
+	<map name="Link">
+		<area shape="default" href="https://www.linkedin.com/company/ie-cse-manipal/">
+	</map>
+	<div class="MainImg" id="Main">
+	<img src="girl.jpg" height="250px" usemap="#MainGirl">
     </div>
     <br>
 	<div class="MainInfo">
 		<h1> Tamara Smith</h1>
 		<h2> Developer</h2>
 		<div class="elements">
-		    <img src="house.jpg" width="15px" height="15px">
+		    <img src="house.jpg" width="15px" height="15px" usemap="#MainGirl">
 		</div>
 		<h5>111 Lorem Street,1234, Ipsum City</h5>
 	    <div class="elements">
@@ -36,15 +45,15 @@
 	    <br>
 	    <br>
 	    <div>
-	    	<img src="github.jpg" height="15px" width="15px">
-	    	<img src="linkedin.jpg" height="15px" width="15px">
-	    	<img src="Insta.jpg" height="15px" width="15px">
+	    	<img src="github.jpg" height="15px" width="15px" usemap="#Git">
+	    	<img src="linkedin.jpg" height="15px" width="15px" usemap="#Link">
+	    	<img src="Insta.jpg" height="15px" width="15px" usemap="#MainGirl">
 	    </div>
 	    <br>
 	    <br>
 	    <br>
 	    <br>
-	<div class="Objective">
+	<div class="Objective" id="Objective">
 	    <h1>Objective</h1>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -56,25 +65,31 @@
 	<br>
 	<br>
 	<prev>
-	<h1 style="text-align: center;">Education</h1>
+	<h1 style="text-align: center;" id="EDU">Education</h1>
 	</prev>
 	<div class="Education">
 		<p>June 2005 - Feb 2016</p>
+		<div class="elements">
+				<img src="RoyalCollegeArt.jpg" width="30px" height="30px">
+		</div>
 		<div class="Edu">
-			<h3>Academy of Art University, London</h3>
+			<h3>Royal College Arts, London</h3>
 			<p>Degree in Arts</p>
 	</div>
 	<br>
 	<br>
 	<div class="Education">
 		<p>June 2016 - May 2020</p>
+		<div class="elements">
+				<img src="UnivOfLondon.jpg" width="30px" height="30px">
+		</div>
 		<div class="Edu">
 			<h3>University of London, London</h3>
 			<p>Bachelor of science in design</p>
 	</div>
 	<br>
 	<br>
-	<h1 style="text-align: center;">Experience</h1>
+	<h1 style="text-align: center;" id="Experience">Experience</h1>
 	<div class="Education">
 		<p>June 2018 - March 2020</p>
 		<div class="Edu">
@@ -97,7 +112,7 @@
 	<br>
 	<h1 style="text-align:center;">Skills</h1>
 	<br>
-	<div class="finale">
+	<div class="finale" id="Skills">
 		<div class="Col1">
 			<div class="elements">
 		        <img src="Photoshop.jpg" width="15px" height="15px">
@@ -142,6 +157,7 @@
 		</div>
 	</div>
 	<form class="my-form">
+		<h3 style="text-align:center;">Message</h3>
     	<div class="form-group">
     		<label>Name: </label>
     		<input type="text"  name="name">
@@ -156,5 +172,13 @@
     	</div>
     	<input class="button" type="submit" value="Submit" name="" onclick="alert('Thank you for reading my CV!')">
     </form>
+    <p>Thank you, That is the end of my CV, happy to recieve any infomation and comments on my CV, if you wanna jump back to</p><br>
+    <br>
+    <a href="#Main">Jump to Top</a><br>
+    <a href="#Objective">Jump to Objective</a><br>
+    <a href="#EDU">Jump to Education</a><br>
+    <a href="#Experience">Jump to Experiences</a><br>
+    <a href="#Skills">Jump to my skills</a><br>
+
 </body>
 </html>

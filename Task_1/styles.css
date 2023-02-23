@@ -1,8 +1,8 @@
+@media(min-width:768px){
 body{
 	background-color: #FAEBD7;
 	width: 80%;
-	margin: auto;
-	margin-top: 60px;
+	margin: 60px;
 }
 .MainImg{
 	float: left;
@@ -77,9 +77,11 @@ a{
 }
 .finale{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-basis: 150px;
 	flex-grow: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 .my-form{
 	padding:20px;
@@ -104,4 +106,5 @@ a{
 .my-form input[type="submit"] hover{
 	background-color: red;
 	color: white;
+}
 }
