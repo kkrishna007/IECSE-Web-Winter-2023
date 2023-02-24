@@ -2,6 +2,7 @@
 
 ## Task Description: 
 Replicated a Resume Website from a design provided on Figma using pure HTML and CSS.
+[^1]Note: CSS is pretty bulky in size, possibly contains multiple redundancies; feedback on this specifically would be appreciated.
 
 ## Website Screenshots: 
 ![Task 1 Screenshot-1](https://user-images.githubusercontent.com/118128965/221153537-6c9051c4-3c23-41f6-8b19-32c592167a76.jpeg)
@@ -10,4 +11,4 @@ Replicated a Resume Website from a design provided on Figma using pure HTML and 
 ## Fonts Used:
 [Work Sans](https://fonts.google.com/specimen/Work+Sans)
 
-[^1](Note: CSS is pretty bulky in size, possibly contains multiple redundancies; feedback on this specifically would be appreciated.)
+
