@@ -1,0 +1,109 @@
+body{
+    background-color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-top: 5.9375em;
+    margin-left: 5.9375em;
+}
+
+header{
+    margin-bottom: 4em;
+}
+
+main{
+    margin-left: 9em;
+}
+
+footer{
+    margin-left: 9em;
+}
+
+.Profile{
+    background-color: #e5e5e5;
+    float: left;
+    margin-right: 3.75em;
+    width: 192px;
+    height: 225px;
+
+}
+
+h2{
+    margin-right: 4em;
+    font-size: 2em;
+}
+
+.Icon{
+    background-color: #e5e5e5;
+    margin-right:0.5em;
+    width: 1.25em;
+    height: 1.25em;
+}
+
+.Title{
+    font-weight: bold;   
+    font-size: 3.125em;
+    margin-right: 24em;
+}
+
+.Socials{
+    position:relative;
+    width: 2.5em;
+    height: 2.5em;
+    float:right;
+    margin-right: 1em;
+}
+
+.Designation{
+    font-size: 1.875em;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p{
+    font-size: 0.9375em;
+}
+
+a:link{
+    color:black;
+}
+
+span{
+    position: absolute;
+    font-size: 1em;
+}
+
+article{
+    margin-bottom: 4em;
+}
+
+.Date{
+    display:inline;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 2em;
+}
+
+
+table{
+    display:inline;
+}
+
+th, td{
+    font-weight: 600;
+    font-size: 1.25em;
+    padding-top: 1em;
+    padding-right:5em;
+}
+
+input{
+    display:inline;
+    height: 4em;
+    background: #FFFFFF;
+    
+}
+
+button{
+    font-weight: 600;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
