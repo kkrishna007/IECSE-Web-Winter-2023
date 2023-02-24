@@ -1,0 +1,49 @@
+
+
+.container {
+    display: flex;
+    align-items: center; 
+}
+
+.image img {
+    max-width: 100%;
+}
+
+
+.image {
+    flex-basis: 22%;
+    padding-top: 60px;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+p.details img {
+    padding-top: 7px;
+    max-width: 2.5%;
+}
+
+.text h2 {
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.text h3 {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+p.details {
+    margin-top: 10px;
+}
+
+.icons {
+
+    flex-basis: 20%;
+    margin-left: 300px;
+    
+}
+
+.icons img {
+    max-width: 4%;
+}
