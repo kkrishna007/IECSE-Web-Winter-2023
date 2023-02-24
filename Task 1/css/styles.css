@@ -1,0 +1,130 @@
+body{
+    background: color #e5e5e5;
+    color:#333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.first-half{
+    display:flex;
+    align-items:left;
+    justify-content:left;
+    flex-basis:200px;
+}
+
+img{
+    max-width:100%;
+}
+
+#profile-photo {
+    border: 1px black solid;
+    margin: 20px;
+}
+
+#name{
+    font-family:Tahoma;
+    font-weight:800;
+    font-style:bold;
+    color:black;
+}
+
+.icons{
+    margin:20px 100px;
+}
+
+#li1{
+    list-style-image: url(../images/home.png);
+}
+#li2{
+    list-style-image: url(../images/email.png);
+}
+#li3{
+    list-style-image: url(../images/phone.png);
+}
+#li4{
+    list-style-image: url(../images/global.png);
+}
+
+.details li{
+    padding-bottom:5px;
+    border-bottom:dotted 1px #333;
+}
+
+.sub-heading{
+    margin:20px;
+    color:#000;
+}
+
+.horizontal{
+    display:flex;
+    align-items:top left;
+    justify-content:left;
+    padding:0 20px;
+}
+
+.vertical{
+    display:flex;
+    align-items:top left;
+    justify-content:left;
+    flex-direction: column;
+    padding:0 20px;
+}
+
+#language-box{
+    border:solid #000 1px;
+    border-radius:15px ;
+    margin:5px;
+}
+
+.my-form{
+    margin-left: 25%;
+    width:50%;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+    border:0;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:5px;
+    width:50%;
+    border-radius: 10px;
+    border:0;
+    background-color: #ccdea9;
+    
+}
+
+.button{
+    background-color:#333;
+    color:#fff;
+    padding:5px 15px;
+    margin-left:20%;
+    margin: bottom 20px;
+    border:none;
+}
+
+.button:hover{
+    background:red;
+    color:#fff;
+}
+
+.message-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    padding:0 20px;
+}
