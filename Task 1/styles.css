@@ -1,0 +1,350 @@
+body {
+    margin-left: 130px;
+    margin-right: 130px;
+    background: #f9f4ed;
+}
+.container {
+    display: flex;
+    align-items: center; 
+}
+.image img {
+    max-width: 100%;
+}
+.image {
+    flex-basis: 16.5%;
+    padding-top: 60px;
+}
+.text {
+    font-size: 20px;
+  }
+p.details img {
+    padding-top: 7px;
+    max-width: 2.5%;
+}
+.text h2 {
+    margin-top: 80px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    font-weight: 700px;
+}
+.text h3 {
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+.text p {
+    margin-left: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+p.details {
+    margin-top: 10px;
+}
+.icons {
+    margin-left: 400px;
+}
+.icons img {
+    max-width: 4%;
+}
+
+
+/* CSS: OBJECTIVE Block */
+
+.objective {
+    margin-top: 40px;
+    display: flex;
+}
+.objective h3 {
+    margin-right: 51px;
+    margin-left: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+}
+.objective p {
+    margin-top: 35px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
+
+
+/* CSS: EDUCATION Block */
+
+.education h3 {
+    margin-right: 30px;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+}
+.subheading > p {
+    margin-left: 28px;
+    margin-bottom: 0;
+}
+.date {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+.edu {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+.degree1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-top: 0; 
+    margin-left: 253px;
+}
+.degree2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-top: 0; 
+    margin-left: 251px;
+}
+
+
+/* CSS: EXPERIENCE Block */
+
+.experience h3 {
+    margin-right: 30px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+}
+.subheading2 > p {
+    margin-bottom: 0;
+}
+.date2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+.work {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+.position1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-top: 0; 
+    margin-left: 250px;
+}
+.position2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-top: 0; 
+    margin-left: 250px;
+}
+.experience1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+.experience2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+
+
+/* CSS: SKILLS Block */
+
+.subheading3 {
+    display: flex;
+}
+.skills h3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+    margin-left: 95px;
+}
+.sideheading1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    padding-right: 53px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.row1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    padding-right: 194px;
+}
+.row2 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    padding-right: 194px;
+}
+.row3 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+
+
+/* CSS: Forms Block*/
+
+.form {
+    padding-top: 50px;
+    padding-left: 370px;
+    width: 25%;
+    display: flex;
+}
+.formName, .formEmail, .formMessage {
+    display: flex;
+    justify-content: space-around;
+}
+.form p {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    padding-top: 40px;
+}
+.form div {
+    padding-top: 35px;
+}
+.formName label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    padding-right: 94px;
+}
+.formEmail label {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    padding-right: 60px;
+}
+.formMessage label {
+    padding-bottom: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -0.02em;
+    padding-right: 61px;
+}
+input[type=text]{
+     border-radius: 20px;
+     border-style: hidden;
+}
+textarea {
+    border-radius: 10px;
+    border-style: hidden;
+    resize: none;
+}
+input[type=submit]{
+    background-color: #F4E8D6;
+    border-style: hidden;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 29px;
+    margin-left: 143px;
+    margin-top: 30px;
+}
+input[type=submit]:hover{
+    cursor:pointer;
+    background-color:#f9e3c1;
+}
+
+
