@@ -2,6 +2,6 @@
 ## Task Description:
 Replicating a website
 ## Website Screenshots:
-IECSE_Task1_Image.jpeg
+In the task folder
 ## Fonts Used:
 Arial, Helvetica, sans-serif, Tahoma

@@ -1,5 +1,6 @@
+
 body{
-    background: color #e5e5e5;
+    background-color:  #ecebeb;
     color:#333;
     font-family:Arial, Helvetica, sans-serif;
     font-size:16px;
@@ -9,7 +10,7 @@ body{
 }
 
 .container{
-    width:80%;
+    width: 80%;
     margin:auto;
 }
 
@@ -17,17 +18,16 @@ body{
     display:flex;
     align-items:left;
     justify-content:left;
-    flex-basis:200px;
+    flex-basis:190px;
 }
-
-img{
-    max-width:100%;
-}
-
 #profile-photo {
-    border: 1px black solid;
+    border: 2px black solid;
+    display:flex;
     margin: 20px;
+    width: auto;
+    height:auto;
 }
+
 
 #name{
     font-family:Tahoma;
@@ -37,7 +37,7 @@ img{
 }
 
 .icons{
-    margin:20px 100px;
+    margin:20px 20px; 
 }
 
 #li1{
@@ -59,20 +59,25 @@ img{
 }
 
 .sub-heading{
-    margin:20px;
+    margin:0 20px;
     color:#000;
 }
 
+#para{
+    margin:0 20px;
+    padding:10px 10px;
+}
 .horizontal{
     display:flex;
-    align-items:top left;
+    align-items:left;
     justify-content:left;
     padding:0 20px;
+    margin-right:20px;
 }
 
 .vertical{
     display:flex;
-    align-items:top left;
+    align-items:left;
     justify-content:left;
     flex-direction: column;
     padding:0 20px;
@@ -82,10 +87,11 @@ img{
     border:solid #000 1px;
     border-radius:15px ;
     margin:5px;
+    background-color: #fff;
 }
 
 .my-form{
-    margin-left: 25%;
+    margin-left: 15%;
     width:50%;
 }
 
@@ -100,20 +106,21 @@ img{
 
 .my-form input[type="text"], .my-form textarea{
     padding:5px;
-    width:50%;
+    width:70%;
     border-radius: 10px;
     border:0;
-    background-color: #ccdea9;
+    background-color: #fff;
     
 }
 
 .button{
-    background-color:#333;
+    background-color:#555;
     color:#fff;
-    padding:5px 15px;
-    margin-left:20%;
-    margin: bottom 20px;
+    padding:5px 25px;
+    margin-left:25%;
+    margin-bottom:20px;
     border:none;
+    border-radius:5px;
 }
 
 .button:hover{
